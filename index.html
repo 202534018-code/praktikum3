@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perkenalan Diri</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Perkenalan Diri</h1>
+
+        <nav aria-label="Navigasi utama">
+            <a href="#profil" class="nav-link">Profil</a>
+            <a href="#hobi" class="nav-link">Hobi</a>
+            <a href="#kontak" class="nav-link">Kontak</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <article id="profil" class="card">
+            <h2>Profil Saya</h2>
+
+            <img src="pantai.jpg" alt="Foto diri saya">
+
+            <p>
+                Halo, nama saya Maria Mensiana Boa. Saya adalah mahasiswa Sistem Informasi.
+                Saya sedang belajar membuat website menggunakan HTML.
+            </p>
+            <p>
+                Agar dapat memahami bagaimana cara bekerja website.
+            </p>
+        </article>
+
+        <section id="hobi" class="card">
+            <h2>Hobi dan Minat</h2>
+
+            <p>
+                Beberapa hal yang saya sukai adalah belajar,
+                menggunakan komputer, dan mempelajari teknologi.
+            </p>
+
+            <ul>
+                <li>Belajar teknologi</li>
+                <li>Membuat website</li>
+                <li>Mendengarkan musik</li>
+            </ul>
+        </section>
+
+        <section id="kontak" class="card">
+            <h2>Kirim Pesan</h2>
+
+            <form action="#" method="post">
+
+                <div>
+                    <label for="nama">Nama lengkap</label>
+                    <input
+                        id="nama"
+                        name="nama"
+                        type="text"
+                        autocomplete="name"
+                        required
+                    >
+                </div>
+
+                <div>
+                    <label for="email">Alamat email</label>
+                    <input
+                        id="email"
+                        name="email"
+                        type="email"
+                        autocomplete="email"
+                        required
+                    >
+                </div>
+
+                <div>
+                    <label for="pesan">Pesan</label>
+                    <textarea
+                        id="pesan"
+                        name="pesan"
+                        minlength="10"
+                        required
+                    ></textarea>
+                </div>
+
+                <button type="submit">Kirim Pesan</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+    </footer>
+
+</body>
+
+</html>
